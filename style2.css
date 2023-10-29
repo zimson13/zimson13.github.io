@@ -121,6 +121,12 @@ a.active,a:hover{
   border: none;
   font-size: 24px;
 }
+#social{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 #menu-list{
   width: 70%;
   display: flex;
@@ -155,6 +161,9 @@ a.active,a:hover{
     }
   }
   @media (max-width: 935px){
+    nav{
+      position: sticky;
+    }
     .checkbtn{
       display: block;
     }
@@ -169,6 +178,7 @@ a.active,a:hover{
       transition: all .5s;
     }
     nav{
+      position: sticky;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -190,6 +200,17 @@ a.active,a:hover{
     #check:checked ~ ul{
       left: 0;
     }
+    body:has(#check:checked) nav{
+      position: fixed;
+      top: 0px;
+      left: 0;
+    }
+    body:has(#check:checked) .container{
+      position: fixed;
+      top: 80px;
+      left: 200%;
+      transition: all .5s;
+    }
     .active{
         border-bottom: 1px solid rgb(242,227,208);
     }
@@ -199,9 +220,4 @@ a.active,a:hover{
     #menu-list{
       width: 100%;
     }
-  }
-  section{
-    background: url(bg1.jpg) no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px);
   }
