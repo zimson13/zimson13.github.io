@@ -105,14 +105,27 @@ a.active,a:hover{
 .gallery{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  box-sizing: border-box;
 }
-.gallery > img {
-  max-width: 50vw;
-  border-radius: 5px;
-  box-shadow: 10px 10px 26px -1px rgba(0,0,0,0.66);
-  -webkit-box-shadow: 10px 10px 26px -1px rgba(0,0,0,0.66);
-  -moz-box-shadow: 10px 10px 26px -1px rgba(0,0,0,0.66);
+.gallery > div{
+  border: 1px solid rgb(242,227,208);
+  margin: 0px 5px 0px 5px;
+  padding: 3px;
+  border-radius: 4px;
+}
+.gallery > div > img {
+  max-width: 20vw;
+  border-radius: 4px;
+}
+.gallery > div > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgb(242,227,208);
 }
 #prev, #next{
   background: none;
@@ -139,6 +152,9 @@ a.active,a:hover{
   padding: 0 10px 5px 10px;
   border-bottom: 1px solid rgb(242,227,208);
   margin: 5px;
+}
+#menu-list > ol:last-child{
+  border-bottom: none;
 }
 #menu-list > ol > li {
   display: flex;
@@ -219,5 +235,29 @@ a.active,a:hover{
     }
     #menu-list{
       width: 100%;
+    }
+    .gallery{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+    .gallery > div{
+      border: 1px solid rgb(242,227,208);
+      margin: 5px 0px 5px 0px;
+      padding: 3px;
+      border-radius: 4px;
+    }
+    .gallery > div > img {
+      max-width: 90vw;
+      border-radius: 4px;
+    }
+    .gallery > div > div{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top: 1px solid rgb(242,227,208);
     }
   }
