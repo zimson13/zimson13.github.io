@@ -1,6 +1,16 @@
 {
-    "1": "Ogórkowa",
-    "2": "Kurczak, ziemniaki i surówka",
-    "napoj": "Kompot",
-    "aktualnosci": "Dnia 05.11.2023 odbedzie sie festiwal pizzy z okazji 1 roku Cafe Garagano"
-}
+    "obiad-dnia": {
+      "I-danie": "ogorkowa",
+      "II-danie": "kurczak, ziemniaki i surówka",
+      "napoj": "kompot"
+    },
+    "dzisiejsza-oferta": {
+      "ciasta": "3-bit, kremówka, jamajka",
+      "desery": "tiramisu, malinowa chmurka",
+      "przekaski": "brak"
+    },
+    "aktualności": {
+      "dzien": "24.12.2023",
+      "tekst": "test test test"
+    }
+  }

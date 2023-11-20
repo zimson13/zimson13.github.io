@@ -103,6 +103,7 @@ a.active,a:hover{
   height: 90%;
 }
 .gallery{
+  width: 65vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,12 +111,14 @@ a.active,a:hover{
   flex-wrap: wrap;
   margin-top: 5px;
   box-sizing: border-box;
+  flex-wrap: wrap 3;
 }
 .gallery > div{
   border: 1px solid rgb(242,227,208);
   margin: 0px 5px 0px 5px;
   padding: 3px;
   border-radius: 4px;
+  margin-bottom: 5px;
 }
 .gallery > div > img {
   max-width: 20vw;
@@ -237,6 +240,7 @@ a.active,a:hover{
       width: 100%;
     }
     .gallery{
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
