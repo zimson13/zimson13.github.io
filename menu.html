@@ -1,110 +1,108 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Gargano</title>
-    <link rel="icon" type="image/x-icon" href="grafika/prof.jpg">
-    <link rel="stylesheet" href="body.css">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="icon" type="image/x-icon" href="grafika/prof.jpg" />
+    <link rel="stylesheet" href="body.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://kit.fontawesome.com/fba9d5a574.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/fba9d5a574.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- <script src="script.js"></script> -->
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">
-            <img src="grafika/logo.png" alt="">
-        </label>
-        <ul>
-          <li><a href="index.html">Główna</a></li>
-          <li><a href="aktualnosci.html">Aktualności</a></li>
-          <li><a class="active" href="menu.html">Menu</a></li>
-          <li><a href="galeria.html">Galeria</a></li>
-        </ul>
-      </nav>
-      <div class="container">
-        <div id="menu-list">
-          <b>KAWY <i class="fa-solid fa-mug-saucer" style="color: #f2e3d0;"></i></b>
-          <ol>
-              <li>Espresso <b>8 zł</b></li>
-              <li>Podwójne Espresso <b>9 zł</b></li>
-              <li>Espresso Macchiato <b>10 zł</b></li>
-              <li>Kawa Czarna <b>9 zł</b></li>
-              <li>Cappucino <b>11 zł</b></li>
-              <li>Kawa z mlekiem <b>9 zł</b></li>
-              <li>Kawa Latte <b>11 zł</b></li>
-              <li>Kawa Latte Smakowa <b>13 zł</b></li>
-              <li>Latte Macchiato <b>13 zł</b></li>
-              <li>Kawa Mrożona <b>14 zł</b></li>
-              <li>Kawa Parzona <b>7 zł</b></li>
-              <li>Kawa Parzona z Mlekiem <b>8 zł</b></li>
-              <li>Gorąca Czekolada <b>10 zł</b></li>
-          </ol>
-          <b>DESERY <i class="fa-solid fa-ice-cream" style="color: #f2e3d0;"></i></b>
-          <ol>
-              <li>Lody (smak wg. oferty dnia)<b>6 zł</b></li>
-              <li>Ciasta (wg. oferty dnia) <b>6-8 zł</b></li>
-              <li>Desery (wg. oferty dnia) <b>8-10 zł</b></li>
-              <li>Szarlotka z lodami na gorąco <b>14 zł</b></li>
-              <li>Pucharek lodowy z bitą śmietaną <b>19 zł</b></li>
-              <li>Pucharek lodowy z ajerkoniakiem<b>19 zł</b></li>
-              <li>Pucharek lodowy z owocami<b>19 zł</b></li>
-          </ol>
-          <b>PRZEKĄSKI <i class="fa-solid fa-hotdog" style="color: #f2e4cf;"></i></b>
-          <ol>
-              <li>Obiad domowy<b>35 zł</b></li>
-              <li>Zapiekanka mięsna <b>13 zł</b></li>
-              <li>Zapiekanka z dodatkami <b>12 zł</b></li>
-              <li>Zapiekanka <b>10 zł</b></li>
-              <li>Frytki <b>9 zł</b></li>
-          </ol>
-          <b>HERBATY <i class="fa-solid fa-mug-saucer" style="color: #f2e3d0;"></i></b>
-          <ol>
-              <li>Herbata<b>7 zł</b></li>
-              <li>Herbata z cytryną<b>8 zł</b></li>
-              <li>Herbata z sokiem<b>9 zł</b></li>
-              <li>Herbata zimowa <b>13 zł</b></li>
-          </ol>
-          <b>NAPOJE <i class="fa-solid fa-bottle-water" style="color: #f2e3d0;"></i></b>
-          <ol>
-              <li>Coca-cola 250ml<b>6 zł</b></li>
-              <li>Coca-cola 330ml<b>6 zł</b></li>
-              <li>Coca-cola 500ml<b>8 zł</b></li>
-              <li>Coca-cola zero 500ml <b>8 zł</b></li>
-              <li>Fanta 330ml<b>6 zł</b></li>
-              <li>Sprite 330ml <b>6 zł</b></li>
-              <li>Sprite 500ml <b>8 zł</b></li>
-              <li>Cappy jabłkowe 330ml<b>6 zł</b></li>
-              <li>Cappy pomarańczowe 330ml<b>6 zł</b></li>
-              <li>Cappy multiwitamina 330ml<b>6 zł</b></li>
-              <li>Fuzetea cytrynowa 500ml<b>7 zł</b></li>
-              <li>Fuzetea brzoskwiniowa 500ml<b>7 zł</b></li>
-          </ol>
-          <b>ANIELSKA PIZZA <i class="fa-solid fa-pizza-slice" style="color: #f2e3d0;"></i></b>
-          <p>
-            Sobota - Niedziela: 12:00 - 20:00
-          </p>
-          <ol>
-              <li>Margherita <b>27 zł</b></li>
-              <li>Capri <b>29 zł</b></li>
-              <li>Na ostro<b>30 zł</b></li>
-              <li>Wiejska <b>30 zł</b></li>
-              <li>Parmeńska <b>33 zł</b></li>
-              <li>Anielksa <b>35 zł</b></li>
-              <li>Serowa <b>34 zł</b></li>
-              <li>Delikatna <b>31 zł</b></li>
-              <li>Wegetariańska <b>31 zł</b></li>
-              <li>Gyros <b>33 zł</b></li>
-              <li>Hawajska <b>33 zł</b></li>
-              <li>Sosy (Ketchup, Czosnkowy) <b>2 zł</b></li>
-          </ol>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">
+        <img src="grafika/logo.png" alt="" />
+      </label>
+      <ul>
+        <li><a href="index.html">Główna</a></li>
+        <li><a href="aktualnosci.html">Aktualności</a></li>
+        <li><a class="active" href="menu.html">Menu</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div id="menu-list">
+        <b
+          >KAWY <i class="fa-solid fa-mug-saucer" style="color: #f2e3d0"></i
+        ></b>
+        <ol>
+          <li>Espresso <b>8 zł</b></li>
+          <li>Podwójne Espresso <b>9 zł</b></li>
+          <li>Espresso Macchiato <b>10 zł</b></li>
+          <li>Kawa Czarna <b>9 zł</b></li>
+          <li>Cappucino <b>11 zł</b></li>
+          <li>Kawa z mlekiem <b>9 zł</b></li>
+          <li>Flat White<b>9 zł</b></li>
+          <li>Kawa Latte <b>11 zł</b></li>
+          <li>Kawa Latte Smakowa <b>13 zł</b></li>
+          <li>Latte Macchiato <b>13 zł</b></li>
+          <li>Kawa Mrożona <b>14 zł</b></li>
+          <li>Kawa Parzona <b>7 zł</b></li>
+          <li>Kawa Parzona z Mlekiem <b>8 zł</b></li>
+          <li>Gorąca Czekolada <b>10 zł</b></li>
+        </ol>
+        <b
+          >DESERY <i class="fa-solid fa-ice-cream" style="color: #f2e3d0"></i
+        ></b>
+        <ol>
+          <li>Lody (smak wg. oferty dnia)<b>6 zł</b></li>
+          <li>Ciasta (wg. oferty dnia) <b>6-8 zł</b></li>
+          <li>Desery (wg. oferty dnia) <b>8-10 zł</b></li>
+          <li>Szarlotka z lodami na gorąco <b>14 zł</b></li>
+          <li>Pucharek lodowy z bitą śmietaną <b>19 zł</b></li>
+          <li>Pucharek lodowy z ajerkoniakiem<b>19 zł</b></li>
+          <li>Pucharek lodowy z owocami<b>19 zł</b></li>
+        </ol>
+        <b
+          >PRZEKĄSKI <i class="fa-solid fa-hotdog" style="color: #f2e4cf"></i
+        ></b>
+        <ol>
+          <li>Obiad domowy<b>35 zł</b></li>
+          <li>Pinsa Romana<b>20 zł</b></li>
+          <li>Kanapka włoska<b>10 zł</b></li>
+          <li>Zapiekanka mięsna <b>13 zł</b></li>
+          <li>Zapiekanka z dodatkami <b>12 zł</b></li>
+          <li>Zapiekanka <b>10 zł</b></li>
+          <li>Frytki <b>9 zł</b></li>
+        </ol>
+        <b
+          >HERBATY <i class="fa-solid fa-mug-saucer" style="color: #f2e3d0"></i
+        ></b>
+        <ol>
+          <li>Herbata<b>7 zł</b></li>
+          <li>Herbata z cytryną<b>8 zł</b></li>
+          <li>Herbata z sokiem<b>9 zł</b></li>
+          <li>Herbata zimowa <b>13 zł</b></li>
+        </ol>
+        <b
+          >NAPOJE <i class="fa-solid fa-bottle-water" style="color: #f2e3d0"></i
+        ></b>
+        <ol>
+          <li>Coca-cola 250ml<b>6 zł</b></li>
+          <li>Coca-cola 330ml<b>6 zł</b></li>
+          <li>Coca-cola 500ml<b>8 zł</b></li>
+          <li>Coca-cola zero 500ml <b>8 zł</b></li>
+          <li>Fanta 330ml<b>6 zł</b></li>
+          <li>Sprite 330ml <b>6 zł</b></li>
+          <li>Sprite 500ml <b>8 zł</b></li>
+          <li>Cappy jabłkowe 330ml<b>6 zł</b></li>
+          <li>Cappy pomarańczowe 330ml<b>6 zł</b></li>
+          <li>Cappy multiwitamina 330ml<b>6 zł</b></li>
+          <li>Fuzetea cytrynowa 500ml<b>7 zł</b></li>
+          <li>Fuzetea brzoskwiniowa 500ml<b>7 zł</b></li>
+        </ol>
       </div>
-      </div>
-</body>
+    </div>
+  </body>
 </html>
