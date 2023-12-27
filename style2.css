@@ -302,7 +302,7 @@ a:hover {
   }
   .result {
     text-transform: uppercase;
-    text-align: justify;
+    text-align: left;
     padding: 15px;
     font-size: 18px;
   }
